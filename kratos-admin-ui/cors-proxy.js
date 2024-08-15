@@ -18,7 +18,7 @@ function onRequestAdmin(client_req, client_res) {
 
   var proxy = http.request(options, function (res) {
     const headers = res.headers;
-    headers["access-control-allow-origin"] = "http://localhost:3000"
+    headers["access-control-allow-origin"] = "http://localhost:3001"
     headers["access-control-allow-credentials"] = "true"
     headers["access-control-allow-headers"] = "Content-Type"
     headers["access-control-allow-methods"] = "GET, PUT, DELETE, PATCH, HEAD, OPTIONS, POST"
@@ -46,7 +46,7 @@ function onRequestPublic(client_req, client_res) {
 
   var proxy = http.request(options, function (res) {
     const headers = res.headers;
-    headers["access-control-allow-origin"] = "http://localhost:3000"
+    headers["access-control-allow-origin"] = "http://localhost:3001"
     headers["access-control-allow-credentials"] = "true"
     headers["access-control-allow-headers"] = "Content-Type"
     headers["access-control-allow-methods"] = "GET, PUT, DELETE, PATCH, HEAD, OPTIONS, POST"

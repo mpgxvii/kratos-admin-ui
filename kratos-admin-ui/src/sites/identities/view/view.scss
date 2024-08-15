@@ -26,3 +26,10 @@ ul {
 .splitview > div {
     flex: 1 1 0px;
 }
+
+.identityBox {
+    white-space: pre-wrap; /* Allows long lines to be wrapped */
+    overflow: auto; /* Adds scrollbars if necessary */
+    word-break: break-word; /* Breaks words if necessary to prevent overflow */
+    max-width: 100%; /* Ensures the codebox does not exceed its container width */
+}

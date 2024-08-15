@@ -5,12 +5,11 @@ import "./header.scss"
 class HeaderComponent extends React.Component<any, any> {
     render() {
         return (
-            <header>
+            // <header>
                 <span
                     onClick={() => { this.props.history.push("/identities") }}>
-                    Kratos Admin-UI
                 </span>
-            </header>
+            // </header>
         )
     }
 }

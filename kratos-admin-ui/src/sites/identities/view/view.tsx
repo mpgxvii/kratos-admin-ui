@@ -107,7 +107,7 @@ export class ViewIdentitySite extends React.Component<any, ViewIdentityState> {
                             <div className="plainJSON">
                                 {this.getUnorderdList(this.state.identity)}
                             </div>
-                            <div>
+                            <div className="identityBox">
                                 {this.renderSideElement("id", this.state.identity.id)}
                                 {this.renderSideElement("traits", JSON.stringify(this.state.identity.traits))}
                                 {this.renderSideElement("metadata_public", JSON.stringify(this.state.identity.metadata_public))}
