@@ -107,26 +107,4 @@ docker build -t kratos-admin-ui .
 
 Following a few sample images:
 
-### List Identites
-
-![listIdentities](./images/listIdentites.PNG)
-
-### Single Select Identity
-
-![singleSelectIdentity](./images/selectIdentites.PNG)
-
-### Multiselect Identities
-
-![multiselectIdentities](./images/multiselectIdentites.PNG)
-
-### Create Identity
-
-![createIdentity](./images/createIdentity.PNG)
-
-### Edit Identity
-
-![editIdentity](./images/editIdentity.PNG)
-
-### View Identity
-
-![viewIdentity](./images/viewSingleIdentity.PNG)
+![Screenshot 2024-08-15 at 14 13 11](https://github.com/user-attachments/assets/f6fdc7d0-cd1b-4a4f-ae26-f55e602e4159)
